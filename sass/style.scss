@@ -1,0 +1,43 @@
+body {
+  background-color: #ddd;
+  min-height: 100vh;
+  font-size: 1.3vw ;
+  word-break: break-all;
+}
+.clear-both {
+  clear: both;
+}
+#main-content{
+  background-color: rgba(0,0,0,0.85); 
+  min-height:  100vh;
+  padding: 0%; 
+  margin: 0 12% ;
+  color: #fff; 
+  border-radius: 3px 3px 0 0;
+  padding-bottom: 50px; 
+}
+#nav{
+  min-height: 11px; 
+  background-color: rgba(0,0,0,0.7); 
+  border-radius:  0 0 20px 20px; 
+}
+#footer {
+  background-color: rgba(0,0,0,0.9);
+  min-height: 2%;  
+  margin: 0 12%; 
+  text-align: center;
+  color: #777;
+  border-radius: 0 0 4px 4px;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+@import 'header';
+@import 'main_page';
+@import 'add_page';
